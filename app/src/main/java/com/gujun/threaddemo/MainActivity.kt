@@ -60,7 +60,6 @@ class MainActivity : AppCompatActivity() {
         }
         //get()方法会阻塞线程等待获取结果后才往下执行
         Log.e("Thread2----", "clickThread2结果: ${a.get()}")
-        Log.e("Thread2----", "333333")
     }
 
     private fun clickThread3() {
